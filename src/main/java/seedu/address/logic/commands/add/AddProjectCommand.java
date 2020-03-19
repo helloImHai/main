@@ -2,7 +2,6 @@ package seedu.address.logic.commands.add;
 
 import static java.util.Objects.requireNonNull;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_DESCRIPTION;
-import static seedu.address.logic.parser.CliSyntax.PREFIX_FROM;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_ITEM;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_TAG;
@@ -24,7 +23,7 @@ public class AddProjectCommand extends AddCommand {
             + PREFIX_ITEM + "TYPE "
             + PREFIX_NAME + "PROJECT NAME "
             + PREFIX_TIME + "TIME "
-            + PREFIX_FROM + "FROM "
+            + PREFIX_WEBSITE + "WEBSITE "
             + PREFIX_DESCRIPTION + "DESC "
             + "[" + PREFIX_TAG + "TAG]....\n"
             + "Example: " + COMMAND_WORD + " "
